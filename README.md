@@ -1,13 +1,13 @@
 # test_back_express - серверная часть
 
-# install server back-end:
+install server back-end:
 
 npm i
 
 
 # test_api_gpt - клиентская часть
 
-# install client:
+install client:
 
 npm i
 
