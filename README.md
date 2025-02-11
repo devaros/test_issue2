@@ -4,12 +4,23 @@ install server back-end:
 
 npm i
 
+запуск
+
+run.cmd
+
+settings.js - файл настроек
 
 # test_api_gpt - клиентская часть
 
 install client:
 
 npm i
+
+запуск
+
+npm run dev
+
+settings.js - файл настроек
 
 # Внимание!
 

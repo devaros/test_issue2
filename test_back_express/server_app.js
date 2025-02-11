@@ -2,6 +2,7 @@ import cors from 'cors'
 import express from 'express' 
 import https from 'https'
 import fs from 'fs'
+import {server_port} from './settings.js'
 
 //import {get_chat_response} from "./ai_blackbox_connect.js"
 import {get_chat_response} from "./ai_api/ai_gpt-chatbotru.js"
@@ -12,7 +13,7 @@ const credentials = {key: privateKey, cert: certificate};
 
 export const app = express();
 app.use(cors());
-const port = 8091
+const port = server_port
 
 
 app.use(express.json());       // JSON-encoded bodies
